@@ -8,6 +8,7 @@ end
 
 function game.draw(  )
 	debug.print("Fps", love.timer.getFPS())
+	love.graphics.print("Ola bife", 20, 20)
 end
 
 function game.keypressed( key )
